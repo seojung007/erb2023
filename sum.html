@@ -1,19 +1,16 @@
-<html>
-<head>
-<title>합</title>
-</head>
 <body>
-sum 구하기 </h1>
+<h1>sum 구하기</h1>
 <script>
 sum = 0
-kk = 1000
+kk = 100000000
 start = new Date()
-for ( k=1 ; k<=5 ; k++) {
+for ( k=1 ; k<=kk ; k++ ) {
     sum = sum + k
-    //document.write("k is " + k + ", sum is" + sum + "<br>")
+    //document.write("k is " + k + ", sum is " + sum + "<br>")
 }
-document.write("kk is " +Kk + ", sum is" + sum)
-document.write("Computing Time is " + (end-start) + "ms")
+end = new Date()
+document.write("kk is " + kk + ", sum is " + sum + "<br>")
+document.write("Computing Time is" + (end-start) + "ms")
 </script>
 </body>
 </html>
